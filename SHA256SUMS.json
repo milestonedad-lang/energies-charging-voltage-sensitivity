@@ -296,8 +296,8 @@
     "sha256": "98ddeb4b0b3dbbd132e823204cfb7a19cdc648654b30298551b05fffa3604cd1"
   },
   "RELEASE_CHECKS.json": {
-    "bytes": 1186,
-    "sha256": "ecd181145a9039a0c3bbd704d2687f1110fd6d3337e1a2b8833befbab623e7ea"
+    "bytes": 1225,
+    "sha256": "2a04ec18675be84420651037185e9634b2bf566a3bed2781f7c5f40ec0d82cde"
   },
   "RELEASE_NOTES.md": {
     "bytes": 797,

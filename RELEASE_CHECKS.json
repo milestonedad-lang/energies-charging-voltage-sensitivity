@@ -58,6 +58,7 @@
   "flagged_hours": 31,
   "all_array_reads_allow_pickle_false": true,
   "no_scientific_recomputation": true,
-  "new_material_license_pending": true,
-  "public_deposit_not_performed": true
+  "code_license": "MIT",
+  "study_derived_data_license": "CC-BY-4.0",
+  "publication_state_checked_separately": true
 }
