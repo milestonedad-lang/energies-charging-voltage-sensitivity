@@ -1,0 +1,38 @@
+{
+  "title": "Supporting data and code for Sensitivity of hourly voltage decisions to charging energy representations in distribution test feeders",
+  "distribution": "Public supporting research repository prepared for GitHub and Zenodo",
+  "metadata_update_date": "2026-11-13",
+  "scientific_package_version": "1.0",
+  "analysis_archive_version": "1.1",
+  "authors": [
+    {
+      "given_name": "Mingming",
+      "family_name": "Dong",
+      "affiliation": "State-owned Assets Management Office, Shaanxi College of Communications Technology",
+      "ORCID": "0009-0008-2098-3047"
+    },
+    {
+      "given_name": "Ge",
+      "family_name": "Chen",
+      "affiliation": "School of Economics and Management, Shaanxi College of Communications Technology",
+      "ORCID": "0009-0005-9858-9486"
+    },
+    {
+      "given_name": "Wei",
+      "family_name": "Chen",
+      "affiliation": "Electric Power Research Institute, State Grid Shaanxi Electric Power Co., Ltd."
+    }
+  ],
+  "corresponding_author": "Mingming Dong",
+  "contact_email": "milestonedad@gmail.com",
+  "separate_repository_record": true,
+  "separate_repository_DOI": null,
+  "source_analysis_sha256": "1610dc723eed6614546c625ca5391832e1f82c37be2cb7bf3fa387ab45cf7641",
+  "original_UrbanEV_creator_credit_preserved": true,
+  "scientific_data_code_outputs_changed": false,
+  "repository_release_version": "1.0.0",
+  "repository_url": "https://github.com/milestonedad-lang/energies-charging-voltage-sensitivity",
+  "code_license": "MIT",
+  "study_derived_data_license": "CC-BY-4.0",
+  "third_party_licenses_preserved": true
+}

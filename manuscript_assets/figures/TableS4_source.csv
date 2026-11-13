@@ -1,0 +1,7 @@
+Feeder,Comparison,Full record (%),Exclusion (%),Retained hours
+33-bus,A / B,83.68,83.96,4313
+33-bus,A / B-G,12.62,12.54,4313
+33-bus,A / B-Z,6.26,6.24,4313
+69-bus,A / B,1.91,1.88,4313
+69-bus,A / B-G,10.08,10.09,4313
+69-bus,A / B-Z,0.85,0.81,4313

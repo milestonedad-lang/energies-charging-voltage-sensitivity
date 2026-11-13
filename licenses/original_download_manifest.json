@@ -1,0 +1,99 @@
+{
+  "retrieved_date": "2026-11-05",
+  "UrbanEV_commit": "44f2aa0c8d89f192bce00bafb0def74a21b39c68",
+  "files": [
+    {
+      "file": "raw/UrbanEV/readme.md",
+      "url": "https://raw.githubusercontent.com/IntelligentSystemsLab/UrbanEV/44f2aa0c8d89f192bce00bafb0def74a21b39c68/readme.md",
+      "bytes": 13742,
+      "sha256": "3b05a73c4cb5e85492aeb655a9de5667246334ca24d7618419f1c25e91923494",
+      "status": "downloaded"
+    },
+    {
+      "file": "raw/UrbanEV/LICENSE",
+      "url": "https://raw.githubusercontent.com/IntelligentSystemsLab/UrbanEV/44f2aa0c8d89f192bce00bafb0def74a21b39c68/LICENSE",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "status": "downloaded"
+    },
+    {
+      "file": "raw/UrbanEV/data/inf.csv",
+      "url": "https://raw.githubusercontent.com/IntelligentSystemsLab/UrbanEV/44f2aa0c8d89f192bce00bafb0def74a21b39c68/data/inf.csv",
+      "bytes": 74446,
+      "sha256": "03c9830965e9e99b29adfb8cceed0eba98d37631f514273cb3fe61f80d63de7c",
+      "status": "downloaded"
+    },
+    {
+      "file": "raw/UrbanEV/data/occupancy.csv",
+      "url": "https://raw.githubusercontent.com/IntelligentSystemsLab/UrbanEV/44f2aa0c8d89f192bce00bafb0def74a21b39c68/data/occupancy.csv",
+      "bytes": 5513676,
+      "sha256": "1b9099b8c6c33510a2c48a79c4b524b01f6a2f5df45b9d604361b22ad4bc5211",
+      "status": "downloaded"
+    },
+    {
+      "file": "raw/UrbanEV/data/volume.csv",
+      "url": "https://raw.githubusercontent.com/IntelligentSystemsLab/UrbanEV/44f2aa0c8d89f192bce00bafb0def74a21b39c68/data/volume.csv",
+      "bytes": 16503910,
+      "sha256": "a55a095ce75af33c59aece2643d5d71b5cd5a0dc73bb97bc553f0a48f40ace32",
+      "status": "downloaded"
+    },
+    {
+      "file": "raw/UrbanEV/data/duration.csv",
+      "url": "https://raw.githubusercontent.com/IntelligentSystemsLab/UrbanEV/44f2aa0c8d89f192bce00bafb0def74a21b39c68/data/duration.csv",
+      "bytes": 17802378,
+      "sha256": "3afc79ca193267bca327b04d45b6cf24240f8c93ea94bcbb0a52cc119b8080d1",
+      "status": "downloaded"
+    },
+    {
+      "file": "raw/UrbanEV/data/e_price.csv",
+      "url": "https://raw.githubusercontent.com/IntelligentSystemsLab/UrbanEV/44f2aa0c8d89f192bce00bafb0def74a21b39c68/data/e_price.csv",
+      "bytes": 12046239,
+      "sha256": "0076d03b8e400c3e911789e2c7ffb7dd0d44a4414247ead676b508def95bcef4",
+      "status": "downloaded"
+    },
+    {
+      "file": "raw/UrbanEV/data/s_price.csv",
+      "url": "https://raw.githubusercontent.com/IntelligentSystemsLab/UrbanEV/44f2aa0c8d89f192bce00bafb0def74a21b39c68/data/s_price.csv",
+      "bytes": 14966150,
+      "sha256": "d125783e042024157f38d1749232696ea2aa893c61fc31672a3c54374498d3dc",
+      "status": "downloaded"
+    },
+    {
+      "file": "raw/UrbanEV/data/adj.csv",
+      "url": "https://raw.githubusercontent.com/IntelligentSystemsLab/UrbanEV/44f2aa0c8d89f192bce00bafb0def74a21b39c68/data/adj.csv",
+      "bytes": 152420,
+      "sha256": "93100d3b042086159387ec069efbaf411b90298cdf8a7ada64de214c6bdb5c00",
+      "status": "downloaded"
+    },
+    {
+      "file": "raw/UrbanEV/data/distance.csv",
+      "url": "https://raw.githubusercontent.com/IntelligentSystemsLab/UrbanEV/44f2aa0c8d89f192bce00bafb0def74a21b39c68/data/distance.csv",
+      "bytes": 897582,
+      "sha256": "3630642ddce0e4aac440804c134f3424614ce2bd34fc7bcadd1bc1a3de0d303e",
+      "status": "downloaded"
+    },
+    {
+      "file": "raw/UrbanEV/data/weather_central.csv",
+      "url": "https://raw.githubusercontent.com/IntelligentSystemsLab/UrbanEV/44f2aa0c8d89f192bce00bafb0def74a21b39c68/data/weather_central.csv",
+      "bytes": 181328,
+      "sha256": "da8c16dcc6a25eadc97ca062998b5dbb01efbb4569efdd693ac98fb5bbc6d065",
+      "status": "downloaded"
+    },
+    {
+      "file": "raw/UrbanEV/data/volume-11kW.csv",
+      "url": "https://raw.githubusercontent.com/IntelligentSystemsLab/UrbanEV/44f2aa0c8d89f192bce00bafb0def74a21b39c68/data/volume-11kW.csv",
+      "bytes": 19719503,
+      "sha256": "0841f776149120d03bfe9aa04a192a26f28a0f8e89d7752cf59d44672f5b5ee0",
+      "status": "downloaded"
+    },
+    {
+      "file": "raw/Detailed network parameters.xlsx",
+      "url": "https://ndownloader.figshare.com/files/47861164",
+      "bytes": 18735,
+      "sha256": "48b85db07b750353adf110d245ec179a9df8a59994c584bc62e0809fc0b70406",
+      "status": "downloaded",
+      "source_doi": "10.6084/m9.figshare.26354131.v1",
+      "license": "CC BY 4.0"
+    }
+  ]
+}

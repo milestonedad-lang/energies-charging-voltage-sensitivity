@@ -1,0 +1,38 @@
+[
+  {
+    "file": "case33bw.m",
+    "baseMVA": 10.0,
+    "base_kV": 12.66,
+    "raw_load_unit": "kW/kvar",
+    "load_conversion": "divide by 1000 to MW/Mvar",
+    "raw_impedance_unit": "ohm",
+    "Zbase_ohm": 16.02756,
+    "impedance_conversion": "divide ohm values by Zbase to per unit",
+    "bus_count": 33,
+    "active_branch_count": 32,
+    "connected_radial": true,
+    "nominal_P_MW": 3.715,
+    "nominal_Q_Mvar": 2.3,
+    "positive_rateA_records": 0,
+    "thermal_capacity_usable": false,
+    "full_case_not_redistributed": true
+  },
+  {
+    "file": "case69.m",
+    "baseMVA": 10.0,
+    "base_kV": 12.66,
+    "raw_load_unit": "kW/kvar",
+    "load_conversion": "divide by 1000 to MW/Mvar",
+    "raw_impedance_unit": "ohm",
+    "Zbase_ohm": 16.02756,
+    "impedance_conversion": "divide ohm values by Zbase to per unit",
+    "bus_count": 69,
+    "active_branch_count": 68,
+    "connected_radial": true,
+    "nominal_P_MW": 3.8021,
+    "nominal_Q_Mvar": 2.6946999999999997,
+    "positive_rateA_records": 0,
+    "thermal_capacity_usable": false,
+    "full_case_not_redistributed": true
+  }
+]

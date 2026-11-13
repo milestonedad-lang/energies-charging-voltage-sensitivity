@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "source_files_hash_verified": 13,
+  "paired_count_identities_verified": 496,
+  "figure1_all_80_rows_equal_frozen_source": true,
+  "figureS1_all_6_rows_equal_frozen_source": true,
+  "native_word_math_objects": 56,
+  "main_tables": 3,
+  "supplementary_tables": 9,
+  "document_pages_visually_reviewed": 18,
+  "no_new_model_runs": true,
+  "no_new_resampling": true
+}

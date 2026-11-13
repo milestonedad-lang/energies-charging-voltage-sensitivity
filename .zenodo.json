@@ -1,0 +1,39 @@
+{
+  "title": "Supporting data and code for Sensitivity of hourly voltage decisions to charging energy representations in distribution test feeders",
+  "upload_type": "dataset",
+  "description": "<p>Supporting data and code for the manuscript <em>Sensitivity of hourly voltage decisions to charging energy representations in distribution test feeders</em> by Mingming Dong, Ge Chen and Wei Chen.</p><p>Includes paired estimated hourly charging-energy inputs for 4,344 hours and 275 zones, synthetic mappings for 33-bus and 69-bus feeders, all 188 saved scenario arrays, analysis scripts, source data for manuscript figures and tables, pinned provenance, and SHA-256 verification. The frozen analysis includes 108 original and 80 extension scenarios. See README.md and REPRODUCING.md for scope and executable reproduction instructions.</p><p>Study-derived data, outputs and documentation are licensed under CC BY 4.0. Newly authored code is licensed under MIT. Original third-party files retain their source terms and attribution as specified in LICENSE and licenses/THIRD_PARTY_NOTICES.md.</p>",
+  "creators": [
+    {
+      "name": "Dong, Mingming",
+      "affiliation": "State-owned Assets Management Office, Shaanxi College of Communications Technology",
+      "orcid": "0009-0008-2098-3047"
+    },
+    {
+      "name": "Chen, Ge",
+      "affiliation": "School of Economics and Management, Shaanxi College of Communications Technology",
+      "orcid": "0009-0005-9858-9486"
+    },
+    {
+      "name": "Chen, Wei",
+      "affiliation": "Electric Power Research Institute, State Grid Shaanxi Electric Power Co., Ltd."
+    }
+  ],
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "keywords": [
+    "electric vehicle charging",
+    "distribution feeders",
+    "voltage decisions",
+    "energy representation",
+    "reproducible research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/milestonedad-lang/energies-charging-voltage-sensitivity",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ]
+}

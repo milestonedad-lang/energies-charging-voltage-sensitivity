@@ -1,0 +1,93 @@
+{
+  "files": [
+    {
+      "id": 47861164,
+      "name": "Detailed network parameters.xlsx",
+      "size": 18735,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/47861164",
+      "supplied_md5": "cb2312a0a94c67e040ac8472182ec901",
+      "computed_md5": "cb2312a0a94c67e040ac8472182ec901",
+      "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 19197145,
+      "full_name": "Song",
+      "first_name": "",
+      "last_name": "Song",
+      "is_active": true,
+      "url_name": "Song",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/Detailed_network_parameters_xlsx/26354131",
+  "download_disabled": false,
+  "description": "<p dir=\"ltr\">Detailed network parameters</p>",
+  "funding": null,
+  "funding_list": [],
+  "version": 1,
+  "status": "public",
+  "size": 18735,
+  "created_date": "2024-07-23T04:56:27Z",
+  "modified_date": "2025-07-18T08:29:02Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "transportation ability type"
+  ],
+  "keywords": [
+    "transportation ability type"
+  ],
+  "categories": [
+    {
+      "id": 26377,
+      "title": "Transport engineering",
+      "parent_id": 26341,
+      "path": "/26212/26341/26377",
+      "source_id": "400512",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Song (2024). Detailed network parameters.xlsx. figshare. Dataset. https://doi.org/10.6084/m9.figshare.26354131.v1",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 26354131,
+  "title": "Detailed network parameters.xlsx",
+  "doi": "10.6084/m9.figshare.26354131.v1",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/26354131",
+  "published_date": "2024-07-23T04:56:27Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/26354131",
+  "url_public_api": "https://api.figshare.com/v2/articles/26354131",
+  "url_private_html": "https://figshare.com/account/articles/26354131",
+  "url_public_html": "https://figshare.com/articles/dataset/Detailed_network_parameters_xlsx/26354131",
+  "timeline": {
+    "posted": "2024-07-23T04:56:27",
+    "firstOnline": "2024-07-23"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

@@ -1,0 +1,11 @@
+# License scope
+
+Copyright (c) 2026 Mingming Dong, Ge Chen and Wei Chen.
+
+Newly authored study source code is licensed under the MIT License in `licenses/MIT.txt`. This covers study-authored Python scripts in `code/`, `manuscript_assets/code/`, `verify_release.py` and the study-authored Python scripts within the frozen nested archives.
+
+Study-derived data, scenario outputs, summary tables, figures and study-authored documentation are licensed under Creative Commons Attribution 4.0 International, with the text in `licenses/CC-BY-4.0.txt` and canonical terms at https://creativecommons.org/licenses/by/4.0/ . This scope includes the corresponding study-authored members within the nested archives.
+
+UrbanEV original files remain under CC0 1.0. Song's unchanged exploratory workbook remains under its original CC BY 4.0 terms and attribution. MATPOWER case files are fetched from pinned sources subject to their original terms. Dependency packages retain their own licenses. See `licenses/THIRD_PARTY_NOTICES.md` for attribution and source identifiers.
+
+This scope declaration supplies the authors' reuse terms for study-authored content in the preserved historical archives. Historical preparation notes within those archives describe their earlier preparation stages. Original third-party license texts and attribution remain applicable to their respective materials.

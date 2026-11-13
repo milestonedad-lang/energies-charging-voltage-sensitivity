@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE",
+  "new_scenario_count": 80,
+  "new_scenario_hours": 347520,
+  "reused_A_B_scenario_hours": 347520,
+  "combined_four_representation_mapping_scenario_hours": 695040,
+  "nonconverged_new_scenario_hours": 0,
+  "validation_gate": {
+    "status": "PASS",
+    "cases": 80,
+    "max_complex_voltage_difference_pu": 1.4061127772930611e-12,
+    "max_root_residual_pu": 8.045515064749333e-12
+  },
+  "maximum_new_residual_pu": 4.610786427803768e-12,
+  "maximum_new_abs_balance_error_kW": 3.8060079532442614e-09,
+  "addendum_unchanged": true,
+  "parent_solver_unchanged": true,
+  "elapsed_formal_seconds": 11.997221231460571,
+  "settings_changed_after_outcomes": false,
+  "added_analysis_not_original_primary": true
+}

@@ -1,0 +1,7 @@
+Feeder,Comparison,Estimate,2.5th percentile,97.5th percentile
+33-bus,A / B,83.679,77.325,88.122
+33-bus,A / B-G,-7.182,-11.188,-2.715
+33-bus,A / B-Z,-1.565,-3.338,0.231
+69-bus,A / B,1.911,1.082,2.855
+69-bus,A / B-G,-10.083,-13.260,-7.228
+69-bus,A / B-Z,-0.576,-1.013,-0.230

@@ -1,0 +1,12 @@
+Quantity,33-bus,69-bus
+Bus count,33,69
+Closed branches,32,68
+Base power (MVA),10,10
+Base voltage (kV),12.66,12.66
+Nominal active load (MW),3.7150,3.8021
+Nominal reactive load (Mvar),2.3000,2.6947
+"No-EV minimum voltage, beta 0.5 (p.u.)",0.958265,0.956680
+"No-EV minimum voltage, beta 1 (p.u.)",0.913090,0.909188
+Main EV scaling alpha,0.25,0.25
+Main background beta,0.5,0.5
+Main EV power factor,1,1

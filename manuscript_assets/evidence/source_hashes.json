@@ -1,0 +1,54 @@
+{
+  "v1_all_scenarios.csv": {
+    "source": "/workspace/scratch/fa3666f37f11/traffic_power_v1_1/base_v1/results/all_scenarios.csv",
+    "sha256": "f879806eb17f1e3029b02fcb3fc93d6768c35965b82c3bf267feb1a10eb47212"
+  },
+  "v1_paired_comparisons.csv": {
+    "source": "/workspace/scratch/fa3666f37f11/traffic_power_v1_1/base_v1/results/paired_comparisons.csv",
+    "sha256": "13556fc35eed577a477018caaa0bfd3eeb33a4e7755d76114f4a6a8c3245d550"
+  },
+  "v1_conditional_temporal_resampling.csv": {
+    "source": "/workspace/scratch/fa3666f37f11/traffic_power_v1_1/base_v1/results/conditional_temporal_resampling.csv",
+    "sha256": "8b1f2e667231ac3078002a08e4043dacb43d902488272e43831ba70936897da9"
+  },
+  "v1_no_EV_baselines.csv": {
+    "source": "/workspace/scratch/fa3666f37f11/traffic_power_v1_1/base_v1/results/no_EV_baselines.csv",
+    "sha256": "2fbcfed3c8c9dbed0f02e5375c011a285a05a42c34ed7bc05130a2e44e5ce561"
+  },
+  "v1_threshold_and_pairing_sensitivity.csv": {
+    "source": "/workspace/scratch/fa3666f37f11/traffic_power_v1_1/base_v1/results/threshold_and_pairing_sensitivity.csv",
+    "sha256": "ecae67afbeed35aa376f33672224af18a2e683ea3ce4845bec708e910edf1329"
+  },
+  "v1_1_all_mapping_paired_comparisons.csv": {
+    "source": "/workspace/scratch/fa3666f37f11/traffic_power_v1_1/results/all_mapping_paired_comparisons.csv",
+    "sha256": "f67c07175e68758993423f1c677c637e46adc89ea596dc6b5f31c5ad01432663"
+  },
+  "v1_1_threshold_and_flag_sensitivity.csv": {
+    "source": "/workspace/scratch/fa3666f37f11/traffic_power_v1_1/results/threshold_and_flag_sensitivity.csv",
+    "sha256": "cffd4b008a780a53649e869e35f0bec4f2ed49c9f94fab7e66a04f9a390ea48f"
+  },
+  "v1_1_mapping_summary.csv": {
+    "source": "/workspace/scratch/fa3666f37f11/traffic_power_v1_1/outputs/映射敏感性汇总_v1_1.csv",
+    "sha256": "5b12fec4ed1c74dfa9da1d294a78b7545cc3c2c0ab683c0ead65f25062dbcd1c"
+  },
+  "v1_execution_summary.json": {
+    "source": "/workspace/scratch/fa3666f37f11/traffic_power_v1_1/base_v1/evidence/execution_summary.json",
+    "sha256": "e66fc4d788c4e3a8b9822238c8e1018740d80788b732f0718e158830da9fdf45"
+  },
+  "v1_1_execution_summary.json": {
+    "source": "/workspace/scratch/fa3666f37f11/traffic_power_v1_1/evidence/execution_summary_v1_1.json",
+    "sha256": "485b284a68e65bab5a6a1a7f550ced347e5f219e084c2ec7282d22b4ba4131d0"
+  },
+  "locked_protocol_v1.json": {
+    "source": "/workspace/scratch/fa3666f37f11/traffic_power_v1_1/base_v1/source/protocol/outputs/研究方案锁定_v1.json",
+    "sha256": "e65af2bc8a2a8d0b4210d12f3d701eb9335281695987c2100766a85c6bf1f0a2"
+  },
+  "locked_addendum_v1_1.json": {
+    "source": "/workspace/scratch/fa3666f37f11/traffic_power_v1_1/evidence/analysis_addendum_v1_1.json",
+    "sha256": "6bf8b62655528b2c58b0d2842edcafcc37321477410ef2f59c67df64a4c50868"
+  },
+  "feeder_unit_checks.json": {
+    "source": "traffic_power_v1_1/base_v1/source/protocol/evidence/feeder_unit_checks.json",
+    "sha256": "f28f1e8dc446b24d2bba4fc21b24487b43f3c42aff8b47de77f6ba19c8da5765"
+  }
+}

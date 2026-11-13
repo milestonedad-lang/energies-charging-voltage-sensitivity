@@ -1,0 +1,17 @@
+{
+  "commit": "80b6e16f760f58721ad31221c7287c28259cd4ad",
+  "files": [
+    {
+      "file": "case33bw.m",
+      "url": "https://raw.githubusercontent.com/MATPOWER/matpower/80b6e16f760f58721ad31221c7287c28259cd4ad/data/case33bw.m",
+      "bytes": 4866,
+      "sha256": "b40831eeb444669ae876e2996f0dda9f05cd83e81b314b8dfca51e4890cca95d"
+    },
+    {
+      "file": "case69.m",
+      "url": "https://raw.githubusercontent.com/MATPOWER/matpower/80b6e16f760f58721ad31221c7287c28259cd4ad/data/case69.m",
+      "bytes": 8499,
+      "sha256": "7bbdc8c39394eb6c924a64cad49d528bc8e99061823eb0f4a42b22da5c146a2c"
+    }
+  ]
+}

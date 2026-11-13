@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-06",
+  "source_hashes_verified": true,
+  "rows": 4344,
+  "zones": 275,
+  "days": 181,
+  "start": "2022-09-01 00:00:00",
+  "end": "2023-02-28 23:00:00",
+  "static_stations": 1362,
+  "static_piles": 17532,
+  "zero_status_mismatch_cells": 214,
+  "zero_status_mismatch_hours": 31,
+  "zero_status_mismatch_zones": 124,
+  "B_greater_than_A_cells": 207530,
+  "changed_cells_exact": 596483,
+  "global_energy_match_factor_B_to_A": 2.4225449737619122,
+  "region_energy_match_factor_min": 0.6361841952677192,
+  "region_energy_match_factor_max": 21.762811440339224,
+  "reference_Q99_total_A_MW_numpy_linear": 126.91313999999998,
+  "occupancy_max_raw": 373.0,
+  "occupancy_over_100_cells": 10980,
+  "occupancy_over_static_pile_count_cells": 0,
+  "not_a_metered_ground_truth_comparison": true,
+  "scientific_outcomes_run": false,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  }
+}

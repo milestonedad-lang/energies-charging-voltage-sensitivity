@@ -1,0 +1,139 @@
+{
+  "version": "1.0",
+  "locked_date": "2026-11-06",
+  "registration": "internal dated protocol; not publicly preregistered",
+  "stage": "design locked before grid-outcome calculations; numeric solver validation pending",
+  "title_zh": "开放充电数据的电量表征差异如何影响配电网电压约束判断：一项可复现的配对敏感性研究",
+  "title_en": "Sensitivity of distribution-feeder voltage assessments to alternative charging-energy representations in an open EV dataset",
+  "primary_question": "Under a common feeder, mapping, scaling and background load, how often do the two released energy representations give different hourly voltage-threshold decisions?",
+  "secondary_question": "Do differences persist after global or zone-wise total-energy matching?",
+  "causal_claim": false,
+  "ground_truth_energy_available": false,
+  "source_checkpoint_sha256": "2e3e689547a7539dc04534d8bb253832ee49c21552c945324737b13b9abd7356",
+  "UrbanEV_commit": "44f2aa0c8d89f192bce00bafb0def74a21b39c68",
+  "sample": {
+    "hours": 4344,
+    "days": 181,
+    "zones": 275,
+    "primary_exclusions": "none after declared input-integrity checks",
+    "zero_status_mismatch_hours_sensitivity": "exclude whole hours flagged in any zone; do not alter source cells"
+  },
+  "representations": {
+    "A": "released volume.csv, estimated kWh",
+    "B": "released volume-11kW.csv, alternative estimated kWh",
+    "B_global_matched": "B * sum(A)/sum(B), sums across all times and zones",
+    "B_region_matched": "B_z * sum_t(A_z)/sum_t(B_z); all zone totals checked positive"
+  },
+  "feeders": {
+    "primary": "case33bw.m",
+    "replication": "case69.m",
+    "scope": "balanced radial steady-state test feeders; no real Shenzhen grid mapping"
+  },
+  "main": {
+    "mapping_id": 0,
+    "mapping_rule": "numerically sorted TAZIDs round-robin over sorted PQ bus IDs",
+    "alpha": 0.25,
+    "beta": 0.5,
+    "EV_power_factor": 1.0,
+    "EV_load_model": "constant PQ",
+    "slack_voltage_pu": 1.0,
+    "lower_voltage_threshold_pu": 0.95,
+    "upper_voltage_threshold_pu": 1.05
+  },
+  "common_scaling": {
+    "anchor": "Q99 of aggregate A MW over all observed hours, NumPy linear quantile",
+    "P0": "unscaled nominal active-load sum of each feeder in MW",
+    "c": "alpha*P0/Q99(A aggregate MW)",
+    "rule": "same c for all four representations; no per-input peak normalization",
+    "interpretation": "scenario loading ratio, not an EV penetration estimate"
+  },
+  "background": "P_bus=beta*source_P_bus; Q_bus=beta*source_Q_bus; constant over hours, explicitly a controlled benchmark assumption",
+  "one_factor_sensitivities": {
+    "representations": [
+      "A",
+      "B"
+    ],
+    "alpha": [
+      0.1,
+      0.5
+    ],
+    "beta": [
+      0.4,
+      0.6
+    ],
+    "EV_power_factor_lagging": [
+      0.95
+    ],
+    "mapping_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "mapping_seed_rule": "20261105+mapping_id; independently permute zones then round-robin to PQ buses; identical mapping for both inputs",
+    "thresholds_postprocessed": [
+      0.9,
+      0.94,
+      0.95
+    ],
+    "no_full_factorial": true
+  },
+  "primary_metric": {
+    "name": "hourly_voltage_decision_disagreement",
+    "unit": "fraction of all retained hours",
+    "definition": "mean(violation_A != violation_B); violation if any PQ bus is below 0.95 or above 1.05 p.u.",
+    "comparison": "A versus B on case33bw under main settings",
+    "not": "false-positive rate, error against truth, or a measured population risk"
+  },
+  "secondary_metrics": [
+    "paired difference in violating-hour fractions (percentage points)",
+    "paired minimum-voltage difference (p.u.)",
+    "active-loss difference (kW)",
+    "nominal-record max stress and incremental change relative to no-EV background",
+    "mapping-sensitivity range"
+  ],
+  "inference": {
+    "primary": "descriptive paired finite-record comparison, no significance-driven selection",
+    "optional_time_resampling": "2000 paired moving-block bootstrap samples of 7 whole days, truncated to 181 days; seed 20261106; resample all zones and both inputs together",
+    "scope": "temporal resampling within six-month record conditional on synthetic feeder setting; not annual or population confidence"
+  },
+  "numerical_contract": {
+    "unit_checks": "verify raw kW/ohm conversions exactly once; active graph connected and radial",
+    "required_before_formal_runs": "independent backward-forward sweep versus nonlinear AC nodal-equation solution on no-EV and prespecified stress cases",
+    "voltage_agreement_pu": 1e-07,
+    "nodal_balance_residual_pu": 1e-08,
+    "solver_failure": "report separately; never classify failure as safe or physically infeasible automatically",
+    "missing_decision_bounds": "if U paired hours unresolved, disagreement lies in [known_disagreements/T,(known_disagreements+U)/T]"
+  },
+  "excluded_claims": [
+    "true-energy estimation accuracy",
+    "instantaneous peaks from hourly data",
+    "thermal-limit or full hosting-capacity claims without ratings",
+    "forecast superiority",
+    "V2G revenue or SOC feasibility",
+    "real road congestion or charging queues",
+    "causal effect of the 11-kW rule alone",
+    "independent out-of-city real-grid validation"
+  ],
+  "neutral_reporting": "Report absent or disappearing differences after matching; do not add outcome-selected mappings, thresholds, load levels or subgroups.",
+  "author_dependent_pending": [
+    "Whether DOI 10.3390/wevj17030110 is related work by the same authors; matching English names alone do not establish identity."
+  ],
+  "next_step": "Implement and independently verify baseline solvers, then execute the locked main contrasts; no grid-outcome result is included in this package."
+}

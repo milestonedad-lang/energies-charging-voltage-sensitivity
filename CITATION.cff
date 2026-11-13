@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite this versioned supporting research record and the original third-party sources."
+title: "Supporting data and code for Sensitivity of hourly voltage decisions to charging energy representations in distribution test feeders"
+type: dataset
+version: "1.0.0"
+url: "https://github.com/milestonedad-lang/energies-charging-voltage-sensitivity"
+license:
+  - CC-BY-4.0
+  - MIT
+authors:
+  - family-names: Dong
+    given-names: Mingming
+    affiliation: "State-owned Assets Management Office, Shaanxi College of Communications Technology"
+    orcid: "https://orcid.org/0009-0008-2098-3047"
+  - family-names: Chen
+    given-names: Ge
+    affiliation: "School of Economics and Management, Shaanxi College of Communications Technology"
+    orcid: "https://orcid.org/0009-0005-9858-9486"
+  - family-names: Chen
+    given-names: Wei
+    affiliation: "Electric Power Research Institute, State Grid Shaanxi Electric Power Co., Ltd."

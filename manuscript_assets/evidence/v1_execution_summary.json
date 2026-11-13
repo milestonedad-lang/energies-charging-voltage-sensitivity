@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE",
+  "protocol_unchanged": true,
+  "validation": {
+    "status": "PASS",
+    "validation_case_count": 32,
+    "max_complex_voltage_difference_pu": 1.3540280611602541e-12,
+    "max_root_residual_pu": 5.6216755588811e-12,
+    "max_BFS_residual_pu": 5.811873083943859e-12,
+    "max_abs_balance_error_kW": 8.099931392280268e-09
+  },
+  "scenario_count": 108,
+  "scenario_hours": 469152,
+  "main_scenario_hours": 34752,
+  "nonconverged_scenario_hours": 0,
+  "maximum_nodal_residual_pu": 4.694258115719037e-12,
+  "maximum_abs_balance_error_kW": 3.733276798811858e-09,
+  "elapsed_formal_seconds": 10.097892999649048,
+  "outcome_selection_or_parameter_changes": false
+}

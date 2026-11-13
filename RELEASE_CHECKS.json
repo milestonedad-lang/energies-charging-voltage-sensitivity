@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "nested_archives": [
+    {
+      "depth": 0,
+      "members": 102,
+      "CRC": "PASS",
+      "manifest": "PASS"
+    },
+    {
+      "depth": 1,
+      "members": 141,
+      "CRC": "PASS",
+      "manifest": "PASS"
+    },
+    {
+      "depth": 2,
+      "members": 19,
+      "CRC": "PASS",
+      "manifest": "PASS"
+    },
+    {
+      "depth": 3,
+      "members": 26,
+      "CRC": "PASS",
+      "manifest": "PASS"
+    }
+  ],
+  "original_archive_sha256_verified": "1610dc723eed6614546c625ca5391832e1f82c37be2cb7bf3fa387ab45cf7641",
+  "original_arrays_checked": 108,
+  "new_arrays_checked": 80,
+  "distinct_scenario_arrays": 188,
+  "hours_per_array": 4344,
+  "scenario_hours": 816672,
+  "input_shapes": {
+    "A_kWh": [
+      4344,
+      275
+    ],
+    "B_kWh": [
+      4344,
+      275
+    ],
+    "timestamps": [
+      4344
+    ],
+    "zone_ids": [
+      275
+    ],
+    "static_piles": [
+      275
+    ],
+    "static_station_counts": [
+      275
+    ]
+  },
+  "mapping_rows": 11550,
+  "flagged_hours": 31,
+  "all_array_reads_allow_pickle_false": true,
+  "no_scientific_recomputation": true,
+  "new_material_license_pending": true,
+  "public_deposit_not_performed": true
+}

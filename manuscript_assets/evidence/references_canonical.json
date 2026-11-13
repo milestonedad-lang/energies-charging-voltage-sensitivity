@@ -1,0 +1,18 @@
+{
+  "1": "Stiasny J, Zufferey T, Pareschi G, Toffanin D, Hug G, Boulouchos K. Sensitivity analysis of electric vehicle impact on low-voltage distribution grids. Electric Power Systems Research. 2021;191:106696. https://doi.org/10.1016/j.epsr.2020.106696",
+  "2": "Crozier C, Morstyn T, McCulloch M. Capturing diversity in electric vehicle charging behaviour for network capacity estimation. Transportation Research Part D: Transport and Environment. 2021;93:102762. https://doi.org/10.1016/j.trd.2021.102762",
+  "3": "Simolin T, Rautiainen A, Järventausta P, Rauma K, Rehtanz C. Assessing the influence of electric vehicle charging profile modelling methods. IET Generation, Transmission & Distribution. 2022;16(15):3027–3035. https://doi.org/10.1049/gtd2.12494",
+  "4": "Li H, Qu H, Tan X, You L, Zhu R, Fan W. UrbanEV: An Open Benchmark Dataset for Urban Electric Vehicle Charging Demand Prediction. Scientific Data. 2025;12:523. https://doi.org/10.1038/s41597-025-04874-4",
+  "5": "IntelligentSystemsLab. UrbanEV data repository. Commit 44f2aa0c8d89f192bce00bafb0def74a21b39c68. https://github.com/IntelligentSystemsLab/UrbanEV/tree/44f2aa0c8d89f192bce00bafb0def74a21b39c68",
+  "6": "Guo Z, You L, Zhu R, Zhang Y, Yuen C. A City-scale and Harmonized Dataset for Global Electric Vehicle Charging Demand Analysis. Scientific Data. 2025;12:1254. https://doi.org/10.1038/s41597-025-05584-7",
+  "7": "Esser M, Orfanoudakis S, Homaee O, Vahidinasab V, Vergara PP, Spina A. High-temporal-resolution dataset of uni-, bidirectional, and dynamic electric vehicle charging profiles. Scientific Data. 2025;12:1192. https://doi.org/10.1038/s41597-025-05524-5",
+  "8": "Koziel S, Ilić MD, Ferreira DMVP, Carvalho PMS, Hilber P. Data strategy for active distribution networks: a framework to quantify data granularity impact on cyber-physical planning and operation. Sustainable Energy, Grids and Networks. 2025;43:101763. https://doi.org/10.1016/j.segan.2025.101763",
+  "9": "Phan QB, Rahman O, Elphick S. Empirical EV Load Model for Distribution Network Analysis. Energies. 2025;18(13):3494. https://doi.org/10.3390/en18133494",
+  "10": "Zimmerman RD, Murillo-Sanchez CE, Thomas RJ. MATPOWER: Steady-State Operations, Planning, and Analysis Tools for Power Systems Research and Education. IEEE Transactions on Power Systems. 2011;26(1):12–19. https://doi.org/10.1109/TPWRS.2010.2051168",
+  "11": "MATPOWER contributors. MATPOWER case data. Commit 80b6e16f760f58721ad31221c7287c28259cd4ad, files data/case33bw.m and data/case69.m. https://github.com/MATPOWER/matpower/tree/80b6e16f760f58721ad31221c7287c28259cd4ad/data",
+  "12": "Baran ME, Wu FF. Network reconfiguration in distribution systems for loss reduction and load balancing. IEEE Transactions on Power Delivery. 1989;4(2):1401–1407. https://doi.org/10.1109/61.25627",
+  "13": "Baran ME, Wu FF. Optimal capacitor placement on radial distribution systems. IEEE Transactions on Power Delivery. 1989;4(1):725–734. https://doi.org/10.1109/61.19265",
+  "14": "MATPOWER. User's Manual, Section 4.3, Distribution Power Flow. https://matpower.app/manual/matpower/DistributionPowerFlow.html",
+  "15": "SciPy community. scipy.optimize.root. SciPy 1.17.0 reference documentation. https://docs.scipy.org/doc/scipy-1.17.0/reference/generated/scipy.optimize.root.html",
+  "16": "Cao B, Chen G, He X, Ren J. City-Scale Intelligent Scheduling of EV Charging and Vehicle-to-Grid Under Renewable Variability. World Electric Vehicle Journal. 2026;17(3):110. https://doi.org/10.3390/wevj17030110"
+}
