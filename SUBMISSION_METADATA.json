@@ -1,6 +1,6 @@
 {
   "title": "Supporting data and code for Sensitivity of hourly voltage decisions to charging energy representations in distribution test feeders",
-  "distribution": "Public supporting research repository prepared for GitHub and Zenodo",
+  "distribution": "Public GitHub repository with version 1.0.0 archived in Zenodo",
   "metadata_update_date": "2026-11-13",
   "scientific_package_version": "1.0",
   "analysis_archive_version": "1.1",
@@ -26,7 +26,7 @@
   "corresponding_author": "Mingming Dong",
   "contact_email": "milestonedad@gmail.com",
   "separate_repository_record": true,
-  "separate_repository_DOI": null,
+  "separate_repository_DOI": "10.5281/zenodo.24187643",
   "source_analysis_sha256": "1610dc723eed6614546c625ca5391832e1f82c37be2cb7bf3fa387ab45cf7641",
   "original_UrbanEV_creator_credit_preserved": true,
   "scientific_data_code_outputs_changed": false,
@@ -34,5 +34,9 @@
   "repository_url": "https://github.com/milestonedad-lang/energies-charging-voltage-sensitivity",
   "code_license": "MIT",
   "study_derived_data_license": "CC-BY-4.0",
-  "third_party_licenses_preserved": true
+  "third_party_licenses_preserved": true,
+  "archive_record_url": "https://zenodo.org/records/24187643",
+  "archive_version": "1.0.0",
+  "archive_publication_date": "2026-11-13",
+  "archived_github_commit": "67b5397dbfbcdbf79caba022bd3156b89e53fc75"
 }

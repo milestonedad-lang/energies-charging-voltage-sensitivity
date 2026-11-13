@@ -2,7 +2,7 @@
 
 Research companion to **Sensitivity of hourly voltage decisions to charging energy representations in distribution test feeders** by Mingming Dong, Ge Chen and Wei Chen.
 
-Version 1.0.0. Correspondence to Mingming Dong at milestonedad@gmail.com.
+Archived version 1.0.0 is publicly available at https://zenodo.org/records/24187643 with DOI 10.5281/zenodo.24187643. Correspondence to Mingming Dong at milestonedad@gmail.com.
 
 ## Contents
 
@@ -61,6 +61,6 @@ The archive preserves historical stage reports. The completed extension is docum
 
 Newly authored study code is licensed under MIT. Study-derived data, numerical results, tables, figures and accompanying documentation are licensed under CC BY 4.0. Third-party materials retain their source terms. `LICENSE` and `licenses/THIRD_PARTY_NOTICES.md` define the scope, including nested archives.
 
-Use the authors, record title and version above when citing this research companion, together with its published Zenodo record identifier once available. Cite the original data and case sources when reusing those materials. Archival metadata describes this supporting research record and the associated manuscript title.
+Cite this research companion as Dong, M., Chen, G., and Chen, W. (2026), Supporting data and code for Sensitivity of hourly voltage decisions to charging energy representations in distribution test feeders, version 1.0.0, Zenodo. https://doi.org/10.5281/zenodo.24187643 Cite the original data and case sources when reusing those materials. Archival metadata describes this supporting research record and the associated manuscript title.
 
 Repository URL https://github.com/milestonedad-lang/energies-charging-voltage-sensitivity

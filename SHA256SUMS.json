@@ -16,8 +16,8 @@
     "sha256": "1610dc723eed6614546c625ca5391832e1f82c37be2cb7bf3fa387ab45cf7641"
   },
   "CITATION.cff": {
-    "bytes": 955,
-    "sha256": "8b19a6b54283c1077b6303d979320e5502df47eb838178b3cafadbf5b6672e66"
+    "bytes": 1014,
+    "sha256": "9af139630f254ebbbf8b44ff30ce8f9bb00a70d6dd296dddba4440288b7aeca9"
   },
   "code/analysis_v1/build_results_report.py": {
     "bytes": 10040,
@@ -292,8 +292,8 @@
     "sha256": "9df870f022970f1c9ada062699d10b8b92b84a6a48377df177488af5b6da55c1"
   },
   "README.md": {
-    "bytes": 4916,
-    "sha256": "98ddeb4b0b3dbbd132e823204cfb7a19cdc648654b30298551b05fffa3604cd1"
+    "bytes": 5135,
+    "sha256": "269667cf2fd822c1a608da8056306df30e27f13ce5827c03c7d98d88a1ce3258"
   },
   "RELEASE_CHECKS.json": {
     "bytes": 1225,
@@ -336,8 +336,8 @@
     "sha256": "95b07a197a31b6cc2e00b113d4712221869fa036ffcb3489047a577c23a50c07"
   },
   "SUBMISSION_METADATA.json": {
-    "bytes": 1584,
-    "sha256": "ffdb2d8440921197ff5e7c5164b820cf7fdae32fc82238b1e2cfb882b0bd165f"
+    "bytes": 1808,
+    "sha256": "f20676522009c37d93dd15e51b8d6101dfa929a04460d5087e74eaa6cb98a1fc"
   },
   "verify_release.py": {
     "bytes": 1617,
